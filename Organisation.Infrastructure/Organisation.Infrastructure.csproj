@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Organisation.Application\Organisation.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Utilities\" />
+    <Folder Include="Configuration\" />
+    <Folder Include="Persistence\" />
+  </ItemGroup>
+
+</Project>
